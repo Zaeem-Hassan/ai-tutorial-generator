@@ -1,0 +1,94 @@
+1
+00:00:00,000 --> 00:00:16,950
+Welcome to VisionCurator, the platform designed to help ML engineers and data
+scientists manage and analyze their image datasets. Today, we'll walk through
+VisionCurator's Smart Export feature, demonstrating how to create perfectly
+balanced datasets for your machine learning models.
+
+2
+00:00:16,950 --> 00:00:27,074
+On the Datasets page, you can see an overview of your uploaded data, including
+key metrics like image count, clusters, and identified duplicates or outliers.
+
+3
+00:00:27,074 --> 00:00:36,641
+Let's explore our 'dogs' dataset. VisionCurator automatically processes your
+images, providing a detailed view of your data's structure and content.
+
+4
+00:00:36,641 --> 00:00:43,514
+You can easily browse through all images, gaining immediate insights into your
+dataset's diversity and characteristics.
+
+5
+00:00:43,514 --> 00:00:51,594
+VisionCurator intelligently organizes your images into meaningful clusters,
+helping you understand natural groupings within your data.
+
+6
+00:00:51,594 --> 00:01:00,836
+Here, we see images grouped into distinct clusters, like Cluster #0 containing
+various dark-furred dogs, and Cluster #1 with Shih Tzus.
+
+7
+00:01:00,836 --> 00:01:10,913
+This clustering capability is crucial for identifying underrepresented classes
+or potential biases in your dataset, ensuring a more robust model training
+process.
+
+8
+00:01:10,913 --> 00:01:20,201
+Beyond clusters, VisionCurator also identifies outliers – high-priority edge
+cases that are often critical for improving model generalization.
+
+9
+00:01:20,201 --> 00:01:29,443
+These outliers represent unique or unusual examples that, if included in your
+training data, can significantly enhance your model's performance and
+robustness.
+
+10
+00:01:29,443 --> 00:01:37,384
+Now, let's leverage this intelligence with VisionCurator's Smart Export feature,
+accessible directly from your dataset view.
+
+11
+00:01:37,384 --> 00:01:48,530
+Smart Export downloads a perfectly balanced dataset for labeling. It
+automatically includes all identified outliers and then divides the remaining
+quota equally among all clusters.
+
+12
+00:01:48,530 --> 00:01:58,514
+Simply specify your desired target dataset size, and VisionCurator handles the
+complex balancing act, ensuring you get a representative sample every time.
+
+13
+00:01:58,514 --> 00:02:09,010
+To visualize the underlying data intelligence, let's look at the Embedding
+Galaxy. This interactive 3D visualization maps your images based on their
+similarity.
+
+14
+00:02:09,010 --> 00:02:20,341
+Each point represents an image, with colors indicating clusters and specific
+markers for outliers or duplicates. This view helps you understand the
+distribution that Smart Export optimizes.
+
+15
+00:02:20,341 --> 00:02:28,561
+You can interactively explore these embeddings, gaining a deeper understanding
+of how your data is structured and where the distinct groupings lie.
+
+16
+00:02:28,561 --> 00:02:40,914
+This visual confirmation reinforces the intelligent sampling performed by Smart
+Export, ensuring your exported dataset truly reflects the diversity and nuances
+of your full collection.
+
+17
+00:02:40,914 --> 00:02:58,561
+VisionCurator's Smart Export empowers you to quickly obtain high-quality,
+balanced datasets, accelerating your labeling process and improving model
+performance. Experience the power of intelligent dataset curation yourself –
+visit VisionCurator.com to get started today.
